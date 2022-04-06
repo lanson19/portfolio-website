@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Lukas_Ansons_Resume.pdf'
+import profile from '../assets/png/profile.png'
 
 export const headerData = {
-    name: 'Sreerag Rajan',
-    title: "Web Developer",
-    desciption:"Life may be a meandering path but don't worry about it, rather enjoy it. It is about the journey, not the destination so explore all that comes your way, learn and grow from it, for this journey only happens once.",
-    image: 'https://avatars.githubusercontent.com/u/85482640?v=4',
+    name: 'Lukas Anson',
+    title: "Student, Developer, Designer",
+    desciption:"Hi! Welcome to my portfolio! I'm a rising senior at The University of California San Diego with an interest in Front-End Development and Design. Feel free to reach out to talk!",
+    image: profile,
     resumePdf: resume
 }
