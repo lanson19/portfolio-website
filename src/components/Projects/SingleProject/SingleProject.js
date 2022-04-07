@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import { FaPlay, FaCode } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
@@ -6,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 import placeholder from '../../../assets/png/placeholder.png';
 import './SingleProject.css';
 
-function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
+function SingleProject({ id, name, desc, tags, code, demo, image, theme, url }) {
     const useStyles = makeStyles((t) => ({
         iconBtn: {
             display: 'flex',
@@ -50,25 +51,31 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
-                        <a
-                            href={demo}
-                            target='_blank'
-                            rel='noreferrer'
-                            className={classes.iconBtn}
-                            aria-labelledby={`${name
-                                .replace(' ', '-')
-                                .toLowerCase()} ${name
-                                .replace(' ', '-')
-                                .toLowerCase()}-demo`}
-                        >
-                            <FaPlay
-                                id={`${name
+                        {/* Play Button */}
+                        <Link to={url}> 
+                            <a
+                                href={demo}
+                                target='_blank'
+                                rel='noreferrer'
+                                className={classes.iconBtn}
+                                aria-labelledby={`${name
+                                    .replace(' ', '-')
+                                    .toLowerCase()} ${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-demo`}
-                                className={classes.icon}
-                                aria-label='Demo'
-                            />
-                        </a>
+                            >
+                                <FaPlay
+                                    id={`${name
+                                        .replace(' ', '-')
+                                        .toLowerCase()}-demo`}
+                                    className={classes.icon}
+                                    aria-label='Demo'
+                                />
+                            </a>
+                        </Link>
+                        
+
+                        {/* Code Button */}
                         <a
                             href={code}
                             target='_blank'

@@ -2,7 +2,7 @@ export const educationData = [
     {
         id: 1,
         institution: 'University of California San Diego',
-        course: 'B.S. Cognitive Science, Computer Science Minor',
+        course: 'B.S. Cognitive Science and Computer Science Minor',
         startYear: '2019',
         endYear: '2023'
     },
