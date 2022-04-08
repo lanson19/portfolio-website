@@ -7,6 +7,7 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
+import therack from '../assets/png/rackfrontpage.png'
 import canvas from '../assets/png/canvas-redesign.png'
 
 
@@ -16,8 +17,8 @@ export const projectsData = [
         projectName: 'Canvas Homepage Redesign',
         projectDesc: 'With online education becoming the norm, I redesigned the home page of Canvas to make usage by students as intuitive and reliable as possible.',
         tags: ['Figma',],
-        code: 'https://github.com/sreerag-rajan/historythroughmovies',
-        demo: 'https://historythroughmovies.pythonanywhere.com/',
+        code: '',
+        demo: '',
         image: canvas,
         url: "/canvas"
 
@@ -27,9 +28,9 @@ export const projectsData = [
         projectName: 'The Rack',
         projectDesc: 'This is a gym and fitness targeted social media app that fills a void for tight knit fitness friend groups to share and document their gym progress.',
         tags: ['HTML', 'CSS','Javascript', 'React Native', 'Figma'],
-        code: 'https://github.com/sreerag-rajan/sportsjam-clone',
-        demo: 'https://practical-meninsky-36f305.netlify.app/',
-        image: "https://camo.githubusercontent.com/f9fbe30b577cff2fbf09af53fb3c1f12fcc10a771bf9459ed5af10bffab9e38b/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3837352f312a525f5f63646e384c316759474b3154647171797562672e706e67",
+        code: '',
+        demo: '',
+        image: therack,
         url: "/the-rack"
     },
     // {

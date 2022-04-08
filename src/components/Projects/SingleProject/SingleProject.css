@@ -34,10 +34,16 @@
 }
 
 .projectContent > img {
+    margin-top: 10px;
     width: 80%;
-    height: 60%;
+    height: 80%;
     border-radius: 10px;
     transition: opacity 0.7s 0.3s;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 
 .singleProject:hover img{
