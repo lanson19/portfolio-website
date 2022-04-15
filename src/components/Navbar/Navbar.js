@@ -86,7 +86,7 @@ function Navbar() {
             borderRadius: '78.8418px',
             background: theme.secondary,
             color: theme.primary,
-            width: '85%',
+            width: '100%',
             height: '60px',
             display: 'flex',
             alignItems: 'center',

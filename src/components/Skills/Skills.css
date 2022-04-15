@@ -51,9 +51,9 @@
     transition: 300ms ease-in-out;
 }
 
-.skill--box:hover  {
+/* .skill--box:hover  {
     transform: scale(1.15);
-}
+} */
 
 
 .skill--box > img {
