@@ -7,7 +7,7 @@
 }
 
 .projectPage-header {
-    height: 35vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -44,6 +44,64 @@
 .project-grid {
     display: flex;
     gap: 4rem; 
+}
+
+/* My Stuff */
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* min-height: 50vh; */
+    /* background-color: lightcoral; */
+    margin-bottom: 10px;
+}
+
+.title-image {
+    height: 80%;
+}
+
+.project-sub-section-title {
+    width: 100%;
+    height: 10%;
+    color: rgb(84, 95, 196);
+    /* background-color: lightgreen; */
+}
+.project-sub-section-content {
+    width: 95%;
+    min-height: 20%;
+    /* background-color: lightblue; */
+    margin-left: 5%;
+    font-family: var(--primaryFont);
+    font-size: 21px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-titles {
+    font-family: var(--primaryFont);
+    font-size: 40px;
+    padding: 1rem;
+}
+
+.game-play-images {
+    width:100%;
+    padding: 1%;
+}
+
+.image-wrap {
+    /* background-color: blue; */
+    min-width: 45vw;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.image-wrap > p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bold;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {

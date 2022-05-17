@@ -7,7 +7,7 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 
-import therack from '../assets/png/rackfrontpage.png'
+import houseGuessr from '../assets/House-Gussr/house-game.png'
 import canvas from '../assets/png/canvas-redesign.png'
 
 
@@ -25,13 +25,13 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'The Rack',
-        projectDesc: 'This is a gym and fitness targeted social media app that fills a void for tight knit fitness friend groups to share and document their gym progress.',
+        projectName: 'House Guessr',
+        projectDesc: 'This is a web game similar to geoguessr where the player guesses the price of a home based on images and the location and tries to get as close as they can to the actual price.',
         tags: ['HTML', 'CSS','Javascript', 'React Native', 'Figma'],
         code: '',
         demo: '',
-        image: therack,
-        url: "/the-rack"
+        image: houseGuessr,
+        url: "/house-guessr"
     },
     // {
     //     id: 3,

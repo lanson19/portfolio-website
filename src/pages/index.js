@@ -1,5 +1,5 @@
 export { default as Main } from './Main/Main'
 export { default as BlogPage } from './Blog/BlogPage'
 export { default as ProjectPage } from './Project/ProjectPage'
-export { default as TheRackPage } from './TheRackPage/TheRackPage'
+export { default as HouseGuessrPage } from './HouseGuessrPage/HouseGuessrPage'
 export { default as CanvasPage } from './CanvasPage/CanvasPage'
